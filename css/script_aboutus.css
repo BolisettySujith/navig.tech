@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body{
+    font-size: 16px;
+}
+.introduction {
+  background-color: #f4e6be;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  width: 100vw;
+}
+.description {
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+  font-family: inherit;
+}
+#app_logo {
+  width: 25%;
+}
+.navigImage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.showcase {
+  padding: 10%;
+  background-color: #f5f4f4;
+  /* height: 70vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+  font-family: inherit;
+}
+
+.showcaseitems {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.showcaseitems h2 {
+  font-size: 3rem;
+}
+.description{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.description h3{
+    color: brown;
+
+}
+.team {
+  background-color: #f5f4f4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* height: 90vh; */
+  gap: 50px;
+  width: 100vw;
+}
+.team-description {
+  text-align: center;
+  /* padding: 20px; */
+  
+}
+.team-description h2{
+    font-size: 2.5rem;
+}
+.team-description p {
+  padding-left: 25%;
+  padding-right: 25%;
+  margin: 30px;
+  font-family: inherit;
+  font-size: 1.4rem;
+}
+.teamMembers {
+  display: flex;
+  justify-content: space-evenly;
+}
+.teamMemberItem {
+  background-color: aquamarine;
+  width: fit-content;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px;
+}
+.teamMemberImage {
+  padding: 20px;
+  /* background-color: aquamarine; */
+}
+.teamMemberDesc {
+  padding: 10px;
+  width: 100%;
+  /* padding: 20px; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0px 0px 15px 15px;
+}
